@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <TableLayout
+        android:id="@+id/pLay_grid"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center">
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/one"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/two"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/three"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp"/>
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/four"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/five"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/six"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp"/>
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/seven"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/eight"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/nine"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="70sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/info"
+        android:background="@drawable/button_border"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

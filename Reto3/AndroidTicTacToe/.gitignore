@@ -1,0 +1,34 @@
+# Android built files
+*.apk
+*.ap_
+*.aab
+
+# Generated files
+bin/
+gen/
+out/
+app/build/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Logs
+*.log
+
+# Android Studio
+*.iml
+.idea/
+.navigation/
+captures/
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder
+.externalNativeBuild
