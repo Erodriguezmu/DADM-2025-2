@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_game"
+        android:title="@string/menu_new_game"
+        android:icon="@drawable/ic_new_game"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ai_difficulty"
+        android:title="@string/menu_difficulty"
+        android:icon="@drawable/ic_difficulty"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/quit"
+        android:title="@string/menu_quit"
+        android:icon="@drawable/ic_quit"
+        app:showAsAction="ifRoom" />
+</menu>
